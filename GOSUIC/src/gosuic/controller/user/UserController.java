@@ -38,7 +38,7 @@ public class UserController {
 	// 로그인
 	@RequestMapping(value = "/UserLogin.sp", method = RequestMethod.POST)
     public ModelAndView login(HttpServletRequest request, HttpServletResponse response,HttpSession session,UserVo vo) throws IOException{
-		System.out.println(vo.getUserEmail() + " 컨트롤러의 록인 컨트롤러 들옴");
+		System.out.println(vo.getUserEmail() + " 컨트롤러의 록인 컨트롤러 들옴!");
 		//String userEmail = request.getParameter("userEmail");
 		
 		//response.setContentType("text/html; charset=UTF-8");
